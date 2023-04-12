@@ -17,6 +17,8 @@ const totalTarefas = useMemo(()=> tarefas.length,[tarefas] )
   return (
     <>
     <h1>nova atualização</h1>
+    <h2> fiz uma atualização</h2>
+    <h3> adicionei 2 tags de titulo</h3>
       <input type="text" onChange={(e)=>{setInput(e.target.value)}} />
       <button onClick={handleAdd}>Adicionar</button>
       {tarefas.map((tarefas)=>(
